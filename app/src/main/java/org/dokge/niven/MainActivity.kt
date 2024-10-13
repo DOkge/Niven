@@ -14,7 +14,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             NivenTheme {
-                MainPanel()
+                panelWSheet()
+//                MainPanel()
             }
         }
     }
@@ -30,6 +31,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     NivenTheme {
-        MainPanel()
+        panelWSheet()
+//        MainPanel()
     }
 }
